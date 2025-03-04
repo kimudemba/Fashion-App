@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: white;
+}
+
+.hero button {
+padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.trending-outfits {
+    padding: 3rem;
+    text-align: center;
+}
+
+.outfit-grid {
+    padding: 3rem;
+    text-align: center;
+}
+.outfit-card {
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid lightgray;
+  }
+  
+  /* How It Works */
+  .how-it-works {
+    padding: 3rem;
+    background-color: #eee;
+    text-align: center;
+  }
+  
+  .how-it-works ol {
+    list-style-position: inside;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: black;
+    color: white;
+  }
